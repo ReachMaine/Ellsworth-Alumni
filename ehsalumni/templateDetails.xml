@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>EHS Alumni</name>
+	<author>Linda Speight</author>
+	<authorEmail>support@ellsworthamerican.com</authorEmail>
+	<authorUrl>http://eaonline.info/</authorUrl>
+	<copyright>Copyright (C) 2013 Ellsworth American</copyright>
+	<version>1.0</version>
+	<description>Template for Ellsworth High Alumni</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<positions>
+		<position>top-banner</position>
+		<position>top-right</position>
+		<position>top-nav</position>
+		<position>right-sidebar</position>
+		<position>right-bottom</position>
+		<position>content-top</position>
+		<position>content-bottom</position>
+		<position>left-sidebar</position>
+		<position>left-bottom</position>
+		<position>footer</position>
+	</positions>
+</extension>

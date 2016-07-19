@@ -1,0 +1,94 @@
+/* Typography ------------------------------------------ */
+
+h1 {font-size:16px;line-height: 19px;font-weight: 900;}
+h2 {font-size:15px;line-height: 18px;font-weight: 900;}
+h3 {font-size:14px;line-height: 17px;font-weight: 900;}
+h4 {font-size:13px;line-height: 16px;font-weight: 900;}
+h5 {font-size:12px;line-height: 15px;font-weight: 900;}
+h6 {font-size:11px;line-height: 14px;font-weight: 900;}
+td{font-size: 12px; line-height: 15px; padding: 0px 5px}
+th{font-size: 12px; line-height: 15px;}
+
+a {
+    color: $ehs_linkcolor;
+	text-decoration: underline;
+}
+a:hover {
+    color: $ehs_linkcolor;
+	text-decoration: none;
+}
+#left-sidebar .nav {
+	a {
+	    color: #000;
+		//text-decoration: underline;
+		text-decoration: none;
+	}
+	a:hover {
+	    color: $ehs_linkcolor;
+		text-decoration: underline;
+	}
+}
+
+a:visited {color: $ehs_linkcolor;}
+
+img {
+    border: #611212;
+	border: 0;
+}
+
+a.image, a.image:hover  {border:0;}
+
+/* main menu */
+
+/* Clears Divs */
+.clr { clear: both;}
+
+p {
+	margin: 8px 0;
+	font-size: 15px;
+	line-height: 18px;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+
+#content-area {
+	div.page-header {
+		padding: 5px 0px;
+	}
+	ul, ol {
+		padding-left: 40px;
+		list-style-type: disc;
+		list-style-position: inside;
+		margin: 8px 0px;
+		li {
+
+			display: list-item;
+		}
+	}
+	ul > li > ul {
+		margin: 3px 0px;
+	}
+	img {
+		margin: 5px;
+		//min-height: 150px;
+	}
+	.pager {
+		text-align: center;
+		ul {
+			list-style-type: none;
+			li {
+				padding-left: 20px;
+				padding-right: 20px;
+				display: inline;
+			}
+		}
+	}
+}
+
+.hide {
+	display: none;
+}

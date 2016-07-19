@@ -1,0 +1,195 @@
+/*!
+ * Theme Name: ehsalumni
+ * Theme URI:
+ * Author: Linda Speight updated from
+ * Version: 
+ * Client: Ellswoth High Alumni, Ellsworth Maine
+ */
+ 
+/* Import Statements ----------------------------------- */
+@import "compass";
+@import "compass/reset";
+@import "compass/utilities/general/clearfix";
+@import "partials/colors";
+@import "partials/settings";
+@import "partials/functions";
+
+body {
+	background-color: $ehs_site-bkgd;
+}
+#site-wrapper {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: $ehs_fontcolor;
+	margin-top: 0px;
+	width: 900px;
+	margin: auto;
+}
+#top-banner {
+
+	#top-banner-left {
+		height: 223px;
+		float: left;
+	}
+	#top-banner-mid {
+		float: left;
+		height: 223px;
+		width: 586px;
+		background-color: $ehs_site-bkgd;
+		#top-nav {
+			width: 100%;
+			float: left;
+			background-color: $ehs_dkmaroon-bkgd;
+			ul {
+				list-style: none;
+				li a {
+					line-height: 35px;
+					color: $ehs_topnavcolor;
+					text-align: right;
+					padding: 0 10px 0 10px;
+					margin: 0 0 1px 0;
+					text-decoration: none;
+					font-family: Tahoma, "Arial Narrow", Arial, Helvetica, sans-serif;
+					font-size: 18px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	#top-right {
+		float: left;
+		background-color: $ehs_rhsidebar-bkgd;
+		height: 223px;
+		width: 143px;
+		border-right: 10px solid $ehs-site-rightborder;
+		div {
+			margin-top: 16px;
+		}
+	}
+}
+
+#left {
+	//clear: both; 
+	height: inherit;
+	float: left;
+	background-color: $ehs_lhsidebar-bkgd;
+	width: 156px;
+	min-height: 200px;
+	border-left: 5px solid $ehs-site-leftborder;
+	#left-sidebar {
+		padding-left: 8px;
+		ul { // for the menu.
+			padding-top: 10px;
+			li {
+				font-size: 16px;
+				line-height: 23px;
+			}
+		}
+		div.ehs-sidebar ul.ehs-sidebar {
+			li {
+				padding-bottom: 12px;
+				a {
+					line-height: 16px;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	#left-bottom{
+		div {
+		}
+	}
+}
+// mailchimp signup form 
+.cmc-signup  {
+	padding-top:10px;
+	#jform_cmc_intro_text-lbl { // intro text label
+	}
+	.cmc-label { // dont display labels.
+		display: none;
+	}
+
+	.inputbox {
+		width: 140px; // make the input boxes
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	form {
+		padding-bottom: 10px;
+	}
+}
+
+#main-content {
+	height: inherit;
+	float: left;
+	background-color: #FFFFFF;
+	width: 585px;
+	article {
+		padding: 10px;
+		div.items-leading div {
+			padding-top: 10px;
+			clear: both;
+		}
+		h2.item-title {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		blockquote {
+			margin: 12px 40px;
+		}
+	}
+	.items-more, .item-page {
+		li {
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+	.contact {
+		h3 {
+			padding: 5px 0px;
+		}
+		legend {
+			padding-bottom: 10px;
+		}
+	}
+}
+#right {
+	height: inherit;
+	float: left;
+	width: 144px;
+	background-color: $ehs_rhsidebar-bkgd;
+	min-height:200px;
+	border-right: 10px solid $ehs-site-rightborder;
+}
+footer {
+	clear: both;
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: $ehs_footerbkg;
+	color: $ehs_copyrightcolor;
+	#copyright {
+		padding-top: 10px;
+		padding-left: 5px;
+	}
+
+	#ea-logo {
+		float: right;
+		padding-right: 12px;
+	}
+}
+//**** image gallery css *****
+#content-area {
+	ul.sigFreeContainer, ul.sigProContainer {
+		list-style-type: none;
+		img {
+			margin: 0px;
+		}
+		.sigFreeClear { // remove dot at bottom of gallery
+			list-style: none;
+		}
+	}
+}
+	
