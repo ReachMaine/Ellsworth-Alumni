@@ -1,5 +1,5 @@
-<?php 
-  defined('_JEXEC') or die; 
+<?php
+  defined('_JEXEC') or die;
   $app = JFactory::getApplication();
 ?>
 <?php /* modifications:
@@ -15,9 +15,9 @@
     <script data-cfasync="false" type="text/javascript"  src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/custom.js" ></script>
     <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/modernizr.min.js" type="text/javascript"></script>
     <?php /* <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/analytics.min.js" type="text/javascript"></script> */ ?>
-   
-    <jdoc:include type="head" /> 
-    
+
+    <jdoc:include type="head" />
+
     <!-- Stylesheet -->
     <link href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/master.css" rel="stylesheet" type="text/css" />
 
@@ -50,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div id="top-right"><jdoc:include type="modules" name="top-right" /></div>
         </div>
       </header>
-      
+
       <div id="content-wrapper">
         <!-- Sidebar left hand side -->
         <section id="left">
@@ -61,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <jdoc:include type="modules" name="left-bottom" />
           </div>
         </section>
-        
+
         <!-- Main Content -->
         <section id="main-content">
           <!-- Main Content -->
@@ -83,11 +83,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <jdoc:include type="modules" name="right-bottom" />
           </div>
         </section>
-      
+
         <footer>
           <jdoc:include type="modules" name="footer" />
           <article id="copyright">
-            Copyright &copy; 
+            Copyright &copy;
             <?php echo date('Y');
               echo '&nbsp;'; ?>
             <a href="<?php echo $this->baseurl; ?>">
@@ -95,9 +95,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </a>.&nbsp;
              All Rights Reserved.
           </article>
-          <div id="ea-logo">
+          <?php /* zig xout old EA logo<div id="ea-logo">
             <a href="http://reachmaine.com" target="_blank" class="brand"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/ea-white.png" alt="Ellsworth American Logo" width="149" height="21"/></a>
-          <div>          
+          <div>  */ ?>
         </footer>
       </div>
     </div>
