@@ -2,10 +2,10 @@
  * Theme Name: ehsalumni
  * Theme URI:
  * Author: Linda Speight updated from
- * Version: 
+ * Version:
  * Client: Ellswoth High Alumni, Ellsworth Maine
  */
- 
+
 /* Import Statements ----------------------------------- */
 @import "compass";
 @import "compass/reset";
@@ -69,7 +69,7 @@ body {
 }
 
 #left {
-	//clear: both; 
+	//clear: both;
 	height: inherit;
 	float: left;
 	background-color: $ehs_lhsidebar-bkgd;
@@ -100,7 +100,7 @@ body {
 		}
 	}
 }
-// mailchimp signup form 
+// mailchimp signup form
 .cmc-signup  {
 	padding-top:10px;
 	#jform_cmc_intro_text-lbl { // intro text label
@@ -192,4 +192,19 @@ footer {
 		}
 	}
 }
-	
+
+//News Page Styling of Categories
+.ehsaa-categories {
+  form#adminForm {
+    display: none;
+  }
+  .cat-children {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    div {
+      width: 185px;
+    }
+  }
+}
